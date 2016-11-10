@@ -1,0 +1,22 @@
+* text eol=lf
+*.png binary
+*.PNG binary
+*.jpg binary
+*.jar binary
+*.gif binary
+*.zip binary
+*.lib binary
+*.so binary
+*.dll binary
+*.exe binary
+*.ico binary
+*.rc2 binary
+*.sys binary
+*.pdf binary
+*.eot binary
+*.swg binary
+*.ttf binary
+*.woff binary
+*.otf binary
+*.rds binary
+*.sqlite binary
