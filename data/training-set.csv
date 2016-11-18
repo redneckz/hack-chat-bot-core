@@ -1,4 +1,4 @@
-message,class.id
+message,message.class
 Всем привет!,CRAP
 Кто может свезти пообедать?,PASSENGER
 привет,CRAP
@@ -12,8 +12,6 @@ message,class.id
 предлагаю в глобус,PLACE
 ого))) крутяк)))) я за,PASSENGER
 ага),PASSENGER
-+,PASSENGER
-+,PASSENGER
 Привет всем),CRAP
 Давайте заедем Полине аккумулятор купим),CRAP
 "ну, я в 12:45 выйду, погрею еще, подходите",TIME
@@ -24,8 +22,6 @@ message,class.id
 летсц гоу,DRIVER
 Всем привет!,CRAP
 Кто может свезти пообедать?,PASSENGER
-+,PASSENGER
-+,PASSENGER
 одеваемся),DRIVER
 я на машине,DRIVER
 привет! я сегодня на машинке (sun),DRIVER
@@ -33,13 +29,10 @@ message,class.id
 Повезёшь кушать? :),PASSENGER
 Всем привет!,CRAP
 там в городе какой-то снежный ад,CRAP
-+,PASSENGER
-+,PASSENGER
 кто едет? только если что - будете толкать мою малышечку)))),DRIVER
 я еду:),DRIVER
 я еду на своей,DRIVER
 и снег расчищать лопатой для машины),DRIVER
-+,PASSENGER
 я собираюсь через 1-2 мин,TIME
 всем привет!,CRAP
 кто сегодня едет на обед?,PASSENGER
@@ -53,7 +46,6 @@ message,class.id
 я могу,PASSENGER
 "Полина, ты везешь?",CRAP
 да,PASSENGER
-+,PASSENGER
 Кто едет со мной - выходите в 12:30,TIME
 я пока пойду машину погрею,DRIVER
 всем привет!,CRAP
@@ -63,8 +55,6 @@ message,class.id
 +1. Всем привет.,PASSENGER
 а кто меня прикурит?,DRIVER
 "а ты уверен, что заведется? меня недавно пытались прикурить... не получилось, машина, видимо, совсем замерзла",CRAP
-+,PASSENGER
-+,PASSENGER
 Я одного могу забрать,DRIVER
 так влезем?,PASSENGER
 я собираусь мин через 10,TIME
@@ -75,14 +65,10 @@ message,class.id
 я выхожу,DRIVER
 Всем привет!,CRAP
 Кто может свезти пообедать?,PASSENGER
-+,PASSENGER
 "Саша, а ты сегодня возишь?",PASSENGER
-+,PASSENGER
-+,PASSENGER
 "+, хотел бы пассажиром",PASSENGER
 10 - 15 мин,TIME
 я выхожу,DRIVER
-+,PASSENGER
 и яяя,PASSENGER
 я сегодня минус,CRAP
 Всем привет!,CRAP
@@ -92,7 +78,6 @@ message,class.id
 Когда?,PASSENGER
 Надо выдвигаться видимо,DRIVER
 у меня 1 место есть если что,DRIVER
-+,PASSENGER
 Может без Полины сегодня в одну машинку влезем?,PASSENGER
 В маршрутку бы влезли),PASSENGER
 гоу,DRIVER
@@ -110,4 +95,4 @@ message,class.id
 "можно мне еды, пожалуйста",CRAP
 я сейчас поеду,TIME
 кто со мной в глобус?,PLACE
-+,PASSENGER
+foo,CRAP

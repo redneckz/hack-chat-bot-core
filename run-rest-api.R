@@ -1,4 +1,5 @@
 library(plumber)
+library(jsonlite)
 
 source("hack-chat-bot-core.R", encoding = "UTF-8")
 
@@ -15,7 +16,7 @@ router$addEndpoint(verbs = "GET", path = "/chat-message-classes/<id>",
                    expr = GetChatMessageClassById)
 router$addEndpoint(verbs = "GET", path = "/chat-message-classes/UNKNOWN/<message>",
                    expr = ClassifyMessage)
-router$addEndpoint(verbs = "POST", path = "/chat-message-classes/<class.name>/<message>",
-                   expr = TrainModel)
+router$addEndpoint(verbs = "POST", path = "/chat-message-classes/<message.class>/<message>",
+                   expr = TrainModelByMessage)
 
 router$run(port = 8080)
